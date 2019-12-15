@@ -1,0 +1,32 @@
+.menu{
+	padding:0;
+	margin: 0;
+	list-style: none;
+	margin: none;
+	padding:none;
+	margin-top: 15px;
+	text-align: center;
+	background: black 0 -500px no-repeat; 
+	border-radius: 5px;
+	border: 1px solid black;
+	font-family: cursive; 
+}
+
+.el-menu{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 20px 25px;
+	margin: 5px 20px;
+	background-color: #3eb489;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+body{
+background-color: #806b2a;
+}
+footer{
+	margin-top: 15px;
+	font-size: 15px;
+	font-style: italic;
+}

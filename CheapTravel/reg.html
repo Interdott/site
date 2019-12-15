@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cheaptravel</title>
+	<meta charset="utf-8">
+	<style>
+	h1{
+        position:absolute;
+        width:200px;
+        height:150px;
+        left:43%;
+        top:25%;
+        color:white;
+    }
+    form{
+        position:absolute;
+        width:200px;
+        height:150px;
+        left:50%;
+        top:50%;
+        margin-left:-100px;
+        margin-top:-100px;
+        
+    }
+    form{padding:14px}
+    </style>
+</head>
+<body background='poezd.png'>
+	<h1>Регистрация</h1>
+	<form action="reg.php" method="POST">
+		<input type="text" name="email" placeholder="Email" required></br>
+		<input type="text" name="phone" placeholder="Телефон" required></br>
+		<input type="text" name="login" placeholder="Логин" required></br>
+		<input type="password" name="pasw" placeholder="Пароль" required></br>
+		<input type="password" name="pasw_r" placeholder="Повторите пароль" required></br>
+		<input type="submit" value="Регистрация">
+	</form>
+</body>
+</html>
